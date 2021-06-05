@@ -1,6 +1,6 @@
 # wsir
 
-A Clojure library designed to ... well, that part is up to you.
+web search in clojure
 
 ## Usage
 
