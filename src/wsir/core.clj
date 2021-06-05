@@ -12,8 +12,9 @@
       hickory/parse
       hickory/as-hickory))
 
-(def- clojar-query (partial str clojar))
+
 (def- clojar "https://clojars.org/search?q=")
+(def- clojar-query (partial str clojar))
 (defn- clojar-result-processing [site-result]
   (->> (selector/select (selector/child
                           (selector/class :result)
